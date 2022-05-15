@@ -14,8 +14,8 @@
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "Scrapmine on GitHub",
+  "license": "Custom",
   "devDependencies": {
     "electron": "^18.2.3"
   }
