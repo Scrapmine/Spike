@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+            if (window.getParameterByName("q") != "") {
+                // clear the window
+                document.body.innerHTML = "";
+                document.write(getParameterByName("q"));
+            }
+            function submitForm() {
+                // redirect to the render/index.html page
+                window.location.href = "render.html/?q=" + document.getElementById("q").value;
+            }
+        </script>
+        <!-- text editor-->
+        <form><textarea name="text" rows="10" cols="50" id="q"></textarea><br><button type="submit" onclick="">Count words</button>
+
+    </body>
+</html>
